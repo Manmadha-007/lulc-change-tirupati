@@ -8,6 +8,7 @@ __pycache__/
 .venv/
 venv/
 env/
+.env
 
 # ==================================================
 # Jupyter
@@ -15,52 +16,25 @@ env/
 .ipynb_checkpoints/
 
 # ==================================================
-# GIS / Remote Sensing (Heavy Files)
-# ==================================================
-*.tif
-*.tiff
-*.img
-*.vrt
-*.ovr
-*.aux.xml
-*.tfw
-
-# ==================================================
-# Shapefiles (ignore by default)
-# ==================================================
-*.shp
-*.shx
-*.dbf
-*.prj
-*.cpg
-
-# ==================================================
 # Data Directories (RAW & INTERMEDIATE)
 # ==================================================
-data/raw/
-data/intermediate/
-data/downloads/
-
-# ==================================================
-# Model Artifacts
-# ==================================================
-*.joblib
-*.pkl
-*.h5
+data/
+backend/static/tiles/
 
 # ==================================================
 # Generated Outputs
 # ==================================================
-outputs/maps/
-outputs/tiles/
-outputs/rasters/
-outputs/tmp/
+outputs/
 
 # ==================================================
 # Logs & Temporary Files
 # ==================================================
 *.log
 *.tmp
+temp/
+tmp/
+coverage/
+.coverage
 
 # ==================================================
 # OS / IDE
@@ -76,3 +50,22 @@ Thumbs.db
 dist/
 build/
 .cache/
+
+# ==================================================
+# Frontend Specific
+# ==================================================
+frontend/node_modules/
+frontend/dist/
+frontend/dist-ssr/
+frontend/.vscode/
+frontend/*.local
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+frontend/pnpm-debug.log*
+frontend/lerna-debug.log*
+
+# ==================================================
+# Pipeline Specific
+# ==================================================
+pipeline/__pycache__/
