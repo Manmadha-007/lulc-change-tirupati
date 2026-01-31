@@ -1,0 +1,15 @@
+# Backend Framework
+fastapi>=0.110        # High-performance web framework for building APIs
+uvicorn>=0.27         # ASGI server implementation to run FastAPI
+
+# Geospatial Processing
+rasterio>=1.3         # Reading and writing geospatial raster data (GeoTIFFs)
+pyproj>=3.6           # Cartographic projections and coordinate transformations
+numpy>=1.23           # Fundamental package for scientific computing and array manipulation
+
+# Data Analysis
+pandas>=1.5           # Data analysis and manipulation tool (transition matrices)
+
+# Machine Learning
+scikit-learn>=1.3     # Machine learning library (Random Forest Classifier for LULC)
+joblib>=1.3           # Serialization for saving/loading trained models
